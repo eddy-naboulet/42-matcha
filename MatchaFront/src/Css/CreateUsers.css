@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:l');
+
+.createUsersContainer { width: 100%; height: 100%; }
+
+.CreateUsers {
+	visibility: visible;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5vw;
+}
+/*.FieldMatcha {
+	width: 250px;
+	height: 50px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid black;
+	text-align: center;
+	outline: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin: 5px;
+	padding: .5rem 1rem;
+	color: black;
+}*/
+/*.FieldMatchaButton {
+	align-content: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+	padding: .5rem 1rem;
+	border: 1px solid white;
+	appearance: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+
+}*/
+/*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);;
+}*/
+/*input:-moz-placeholder, textarea:-moz-placeholder {
+    color: black;
+}*/
+
+.isInactive { display: none; }
+
+.isInactiveButton { opacity: 0; }
+
+.BoxPicto { display: flex; }
+
+/*.iscenter { transform: translate(-60px); }*/
